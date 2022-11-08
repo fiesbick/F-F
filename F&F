@@ -1,0 +1,54 @@
+body {
+  background-image: url(images/bg.jpg);
+}
+span {
+	color: cyan;
+}
+p, h6, h5, h4, h3 {
+	color: cyan;
+}
+td {
+	border-color: white;
+	border-width: 1px;
+	border-style: inset;
+}
+table {
+	border-spacing: 0px;
+	text-align: center;
+	width: 100%;
+	border-color: white;
+	border-width: 1px;
+	border-style: outset;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+td img {
+	margin: 10px;
+}
+td p {
+	margin: 10px;
+}
+.orson {
+	border-color: rgba(200, 200, 200, 1);
+	border-width: 10px;
+	border-style: outset;
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+.title {
+	color: yellow;
+	font-size: 5em;
+}
+.tagline {
+	margin-top: 50px;
+	font-size: 1.5em;
+	color: white;
+	background-color: red;
+}
+.extra {
+	color: magenta;
+	font-size: 5em;
+}
+.platform {
+	color: rgb(0, 255, 0);
+}
