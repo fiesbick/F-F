@@ -1,54 +1,115 @@
-body {
-  background-image: url(images/bg.jpg);
-}
-span {
-	color: cyan;
-}
-p, h6, h5, h4, h3 {
-	color: cyan;
-}
-td {
-	border-color: white;
-	border-width: 1px;
-	border-style: inset;
-}
-table {
-	border-spacing: 0px;
-	text-align: center;
-	width: 100%;
-	border-color: white;
-	border-width: 1px;
-	border-style: outset;
-	margin-top: 50px;
-	margin-bottom: 50px;
-}
-td img {
-	margin: 10px;
-}
-td p {
-	margin: 10px;
-}
-.orson {
-	border-color: rgba(200, 200, 200, 1);
-	border-width: 10px;
-	border-style: outset;
-	margin-top: 50px;
-	margin-bottom: 10px;
-}
-.title {
-	color: yellow;
-	font-size: 5em;
-}
-.tagline {
-	margin-top: 50px;
-	font-size: 1.5em;
-	color: white;
-	background-color: red;
-}
-.extra {
-	color: magenta;
-	font-size: 5em;
-}
-.platform {
-	color: rgb(0, 255, 0);
-}
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" href="Images/Favicon.png">
+    <title>Segunda Cinéfila</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body >
+
+    <main style="max-width: 800px; margin: 0 auto;">
+
+      <div style="text-align: center;">
+        <img class="orson" width="100" height="100" src="images/orson.jpg">
+      </div>
+
+      <div style="text-align: center;">
+        <img width="70" height="70" src="images/projector.gif">
+        <span class="title">Segunda Cinéfila</span>
+        <img width="70" height="70" src="images/projector.gif">
+      </div>
+
+      <div class="tagline">
+        <marquee>A grife da sétima arte</marquee>
+      </div>
+
+      <div>
+        <table>
+          <tr>
+            <td>
+              <img width="200" height="200" src="images/pixote.jpg">
+            </td>
+            <td>
+              <h4>PIXOTE: A LEI DO MAIS FRACO (1981)</h4>
+              <p>Direção: Héctor Babenco</p>
+              <p>Menor abandonado de 11 anos vive na rua após a fuga de um reformatório, onde aprendeu bastante sobre o crime ao conviver com todos os tipos de delinquentes. Ele sobrevive no Rio de Janeiro atuando como traficante, assassino e, até, cafetão.</p>
+              <p class="platform">DISPONÍVEL EM: LOOKE</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img width="200" height="200" src="images/o-cidadao-ilustre.jpg">
+            </td>
+            <td>
+              <h4>O CIDADÃO ILUSTRE (2016)</h4>
+              <p>Direção: Gastón Duprat, Mariano Cohn</p>
+              <p>Um escritor argentino e vencedor do Prêmio Nobel, radicado há 40 anos na Europa, volta para sua terra natal, ao povoado onde nasceu e que inspirou a maioria de seus livros, para receber o título de Cidadão Ilustre da cidade.</p>
+              <p class="platform">DISPONÍVEL EM: NETFLIX</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img width="200" height="200" src="images/malcolm-x.jpg">
+            </td>
+            <td>
+              <h4>MALCOLM X (1992)</h4>
+              <p>Direção: Spike Lee</p>
+              <p>O líder afro-americano Malcolm X tem o pai assassinado pela Klu Klux Klan e sua mãe internada por insanidade. Preso aos 20 anos de idade, Malcolm se converte ao islamismo e passa a pregar seus ideais.</p>
+              <p class="platform">DISPONÍVEL EM: PRIME VIDEO</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img width="200" height="200" src="images/traffic.jpg">
+            </td>
+            <td>
+              <h4>TRAFFIC (2000)</h4>
+              <p>Direção: Steven Soderbergh</p>
+              <p>Um thriller contemporâneo ambientado no mundo das drogas, sobre os altos ganhos e riscos do tráfico, relatados através de histórias interligadas, algumas altamente pessoais, outras cheias de intriga e perigo.</p>
+              <p class="platform">DISPONÍVEL EM: PRIME VIDEO</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img width="200" height="200" src="images/amantes-eternos.jpg">
+            </td>
+            <td>
+              <h4>AMANTES ETERNOS (2013)</h4>
+              <p>Direção: Jim Jarmusch</p>
+              <p>Conheça a história de amor e de reencontro entre o vampiros Adam, um músico que está deprimido e cansado com o rumo que a sociedade tomou, e Eve. O romance dos dois, que já dura séculos, é perturbado pela chegada de sua incontrolável irmã mais nova.</p>
+              <p class="platform">DISPONÍVEL EM: PRIME VIDEO</p>
+            </td>
+          </tr>
+        </table>
+
+        <div style="text-align: center;">
+          <img width="100" height="100" src="images/explosion.gif">
+          <span class="extra">EXTRA</span>
+          <img width="100" height="100" src="images/explosion.gif">
+        </div>
+
+        <table>
+          <tr>
+            <td>
+              <img width="200" height="200" src="images/louca-obsessao.jpg">
+            </td>
+            <td>
+              <h4>LOUCA OBSESSÃO (1992)</h4>
+              <p>Direção: Rob Reiner</p>
+              <p>O famoso escritor Paul Sheldon sofre um acidente de carro e é socorrido pela enfermeira Annie, que afirma ser sua fã número um.</p>
+              <p class="platform">DISPONÍVEL EM: meios ilícitos</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <div style="text-align: center; margin-bottom: 50px;">
+        <img src="images/heroes.gif">
+      </div>
+
+    </main>
+
+  </body>
+</html>
